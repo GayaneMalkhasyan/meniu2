@@ -1,0 +1,51 @@
+ul{
+    list-style: none;
+    background-color: palevioletred;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    font-size: 24px;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+ul li:hover{
+    background-color: paleturquoise;
+}
+ul li a:hover{
+    color: peru;
+}
+
+.div1 p:nth-child(1){
+    background-color: palevioletred;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.div1 p:nth-child(2){
+    background-color: saddlebrown;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.div1 p:nth-child(3){
+    background-color:salmon;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.div1 p:nth-child(4){
+    background-color: lightsalmon;
+    font-size: 20px;
+    font-family: 'Syne Mono', monospace;
+}
+
+.div1 p:nth-child(5){
+    background-color:violet;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
